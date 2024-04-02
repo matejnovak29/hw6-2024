@@ -21,7 +21,7 @@ function stopVideo() {
 /* Play video & set the volume information */
 document.querySelector("#play").addEventListener("click", function() {
 	video.play();
-	volume.innerHTML = 100 + "%";;
+	volume.innerHTML = slider.value + "%";
 	console.log("Play Video");
 });
 
